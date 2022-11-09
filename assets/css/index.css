@@ -1,0 +1,50 @@
+@import url(./base.css);
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 1.5em 7rem;
+}
+
+.cabeçalho__container {
+    display: flex;
+    align-items: center;
+}
+
+.cabeçalho__logo {
+    display: flex;
+    align-items: center;
+    padding-right: 7rem;
+    gap: 0.5rem;
+}
+
+.cabeçalho__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-logo);    
+}
+
+.cabeçalho__link {
+   color: var(--cor-texto);
+   font-size: 16px;
+   font-weight: 500;
+   text-decoration: none;
+   padding-left: 2rem;
+}
+
+.cabeçalho__container-botão {
+    background-color: var(--cor-destaque);
+    border: 1px solid var(--cor-destaque);
+    border-radius: 0.5rem;
+    padding: 0.6rem 1.1rem;
+    margin-left: 1.8rem;
+    color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
