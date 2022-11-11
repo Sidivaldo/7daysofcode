@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin: 1.5em 7rem;
+    margin: 1.5rem 7rem;
 }
 
 .cabeçalho__topo__container {
@@ -49,7 +49,7 @@
     padding: 9rem ;
 }
 
-aside {
+.cabeçalho__destaque {
     color: var(--cor-destaque);
     font-size: 16px;
     font-weight: 600;
@@ -69,7 +69,70 @@ aside {
     width: 50%;
 }
 
+/* Metricas */
 
+.metricas {
+    display: flex;
+    margin: 1.5em 7rem;
+}
 
+.metricas__container {
+    padding: 0 1rem;
+    width: 25vw;
+}
 
+.metricas__numeros {
+    color: var(--cor-destaque);
+    font-size: 60px;
+    font-weight: 600;
+}
 
+.metricas__texto {
+    color: var(--cor-titulo);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+.metricas__descrição {
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Vagas */
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12rem 0;
+}
+
+.vagas__destaque {
+    color: var(--cor-destaque);
+    font-size: 14px;
+    font-weight: 500;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 0.025rem 0.5rem;
+}
+
+.vagas__titulo {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1.25rem 0;
+}
+
+.vagas__texto {
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+.vagas img {
+    padding: 4rem 7rem;
+    width: 85%;
+}

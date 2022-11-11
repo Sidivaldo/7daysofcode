@@ -1,4 +1,4 @@
-<h1 style="text-align:center;">**#7DaysOfCode** - HTML e CSS  💻</h1>
+<h1 style="text-align:center;">#7DaysOfCode - HTML e CSS  💻</h1>
 
 <h2 style="text-align:center;" > 💻 Dia 1 </h2>
 
@@ -11,4 +11,16 @@
 <p>"O desafio de hoje é desenvolver a primeira seção da sua página, que também pode ser chamada de cabeçalho."</p>
 
 <img src="./readme/cabeçalho.jpg"> 
+
+<h2 style="text-align:center;" > 💻 Dia 3 </h2>
+
+<p>"Continuando, hoje você vai desenvolver uma parte bem legal e desafiadora: a seção de métricas e resultados da sua página. Ela é uma seção muito comum na maioria das landing pages que vemos por aí hoje em dia."</p>
+
+<img src="./readme/metricas.jpg"> 
+
+<h2 style="text-align:center;" > 💻 Dia 4 </h2>
+
+<p>"O que você vai fazer hoje é a seção de "Estamos procurando por talentos", mas sem a parte de divulgação de vagas ainda, apenas até a imagem!"</p>
+
+<img src="./readme/vagas1.jpg"> 
 
