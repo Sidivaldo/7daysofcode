@@ -28,6 +28,14 @@
    padding-left: 2rem;
 }
 
+.cabeçalho__link {
+    color: var(--cor-texto);
+   font-size: 16px;
+   font-weight: 500;
+   text-decoration: none;
+   padding-left: 2rem;
+}
+
 .cabeçalho__container-botão {
     background-color: var(--cor-destaque);
     border: 1px solid var(--cor-destaque);
@@ -135,4 +143,140 @@
 .vagas img {
     padding: 4rem 7rem;
     width: 85%;
+}
+
+
+.vagas__container {
+    margin-bottom: 1.5rem;
+    border: solid 1px #EAECF0;;
+    border-radius: 16px;
+    width: 50%;
+    padding: 1.8rem;   
+}
+
+.vagas__titulo-principal {
+    color: var(--cor-titulo);
+    font-size: 20px;
+    font-weight: 500;
+    width: 55%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.vagas__titulos {
+    color: var(--cor-titulo);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.vagas__textos {
+    display: flex;
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: 500;
+    gap: 1.5rem;   
+}
+
+/*Depoimentos */
+
+.depoimentos {
+    background-color: rgba(195, 25, 25, 0.031);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7rem;
+    padding: 4rem;
+}
+
+.depoimento__destaque {
+    color: var(--cor-destaque);
+    font-size: 14px;
+    font-weight: 600;  
+    padding-bottom: 1rem;  
+}
+
+.depoimento__titulo {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    width: 75%;
+    padding-bottom: 2rem;
+}
+
+.depoimento__nome {
+    color: var(--cor-titulo);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;  
+}
+
+.depoimento__texto {
+    color: var(--cor-texto);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Rodapé */
+
+.rodapé {
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    padding: 6rem 21rem;
+}
+
+.rodapé__titulo {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 1.2rem;
+}
+
+.rodapé__texto {
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 2.5rem;
+}
+
+.rodapé input {
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 1rem 8rem 1rem 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.rodapé__botão {
+    background-color: var(--cor-destaque);
+    border: 1px solid var(--cor-destaque);
+    border-radius: 0.5rem;
+    padding: 0.6rem 1.1rem;
+    margin-left: 1rem;
+    color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.rodapé__formulario::placeholder {
+    font-family: var(--fonte-padrão);
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0;    
+}
+
+.rodapé__direitos {
+   color: #98A2B3;
+   font-size: 16px;
+   font-weight: 400;
 }

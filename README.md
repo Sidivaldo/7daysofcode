@@ -24,3 +24,21 @@
 
 <img src="./readme/vagas1.jpg"> 
 
+<h2 style="text-align:center;" > 💻 Dia 5 </h2>
+
+<p>"Dando continuidade, hoje você vai desenvolver a parte talvez mais importante do projeto inteiro, a seção de vagas!"</p>
+
+<img src="./readme/vagas2.jpg">
+
+<h2 style="text-align:center;" > 💻 Dia 6 </h2>
+
+<p>"No desafio de hoje, você vai criar a seção de Depoimentos."</p>
+
+<img src="./readme/depoimentos.jpg">
+
+<h2 style="text-align:center;" > 💻 Dia 7 </h2>
+
+<p>"No desafio de hoje você vai desenvolver a última seção do projeto da página: o rodapé."</p>
+
+<img src="./readme/rodape.jpg">
+
